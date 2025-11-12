@@ -1,0 +1,131 @@
+.jira-modal {
+  max-width: 700px;
+}
+
+.jira-form {
+  padding: 25px;
+}
+
+.help-text {
+  display: block;
+  font-size: 12px;
+  font-weight: normal;
+  color: #666;
+  margin-top: 4px;
+}
+
+.validating {
+  border-color: #ff9800 !important;
+}
+
+.validating-indicator {
+  display: block;
+  font-size: 12px;
+  color: #ff9800;
+  margin-top: 4px;
+}
+
+.issue-info {
+  margin-top: 10px;
+  padding: 10px;
+  background: #f0f9f0;
+  border-left: 4px solid #4caf50;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.issue-info strong {
+  color: #4caf50;
+}
+
+.issue-info small {
+  color: #666;
+  display: block;
+  margin-top: 4px;
+}
+
+.error-message {
+  background: #fff5f5;
+  border: 1px solid #ff4444;
+  color: #ff4444;
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.checkbox-group {
+  margin: 20px 0;
+}
+
+.checkbox-group label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: normal;
+}
+
+.checkbox-group input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.jira-config-message {
+  padding: 25px;
+}
+
+.jira-config-message p {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.jira-config-message ul {
+  margin: 15px 0;
+  padding-left: 25px;
+}
+
+.jira-config-message li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+
+.jira-config-message code {
+  background: #f5f5f5;
+  padding: 2px 6px;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+}
+
+.task-info-box {
+  background: #f0f4ff;
+  border-left: 4px solid #667eea;
+  padding: 15px;
+  border-radius: 6px;
+  margin: 15px 0;
+  font-size: 14px;
+}
+
+.task-info-box strong {
+  color: #667eea;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.existing-jira-link {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid #d0d7e8;
+  color: #666;
+  font-size: 13px;
+}
+
+.existing-jira-link strong {
+  color: #4caf50;
+  display: inline;
+  margin: 0;
+}
+
+
